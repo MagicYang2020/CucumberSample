@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3026822496,
+              "status": "passed"
+            },
+            "match": {
+              "location": "baseTest.BeforeAllTestSetup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50448083549,
+              "status": "passed"
+            },
+            "match": {
+              "location": "baseTest.BeforeScenarioSetup(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test Baidu search for selenium",
+        "description": "",
+        "id": "test-baidu-search-for-selenium;test-baidu-search-for-selenium",
+        "after": [
+          {
+            "result": {
+              "duration": 5187912856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "baseTest.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17025064303,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to \"baidu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "baidu",
+                  "offset": 15
+                }
+              ],
+              "location": "test.i_navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2935827514,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I send \"seleniumTest\" into searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumTest",
+                  "offset": 8
+                }
+              ],
+              "location": "test.i_send_into_searchbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1223595598,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click search button",
+            "match": {
+              "location": "test.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5676076484,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The correct search result is returned",
+            "match": {
+              "location": "test.the_correct_search_result_is_returned()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Test baidu search for selenium",
+    "description": "Search for selenium on baidu",
+    "id": "test-baidu-search-for-selenium",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
